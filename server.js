@@ -5,13 +5,6 @@ const cors = require('cors');
 const app = express();
 
 
-// CORS 설정을 위한 헤더
-// const headers = {
-//   'Access-Control-Allow-Origin': "http://127.0.0.1:5500",
-//   'Access-Control-Allow-Methods': 'OPTIONS, POST, GET, PUT, DELETE',
-//   'Access-Control-Allow-Headers': 'Content-Type',
-// };
-
 let data = { message: '여러분 화이팅!' };
 
 
